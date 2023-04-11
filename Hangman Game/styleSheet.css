@@ -1,0 +1,38 @@
+body{
+    border: 1px solid;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .hangman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+  }
+   
+  .word {
+    text-align: center;
+  }
+  
+  .letters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .letters button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
